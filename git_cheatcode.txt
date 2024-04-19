@@ -1,0 +1,39 @@
+1.git init
+2.git status    //all r untracked
+3.git add .     //add files to stagged area
+4.git status    //tracked
+5.git commit -M "1st commit/msg"
+6.git status    
+7.git branch -M myown_branch_name/main 
+
+//if step 7 not working.. 
+git config --global user.email "jalajagond@gmail.com"
+git config --global user.name "username"
+
+8.git remote add origin https://github.com/JalajaDG/QC_ADC.git
+9.git push -u origin  myown_branch_name
+
+//step 9 asks username n password..if authentication failed,,goto github
+setting..developer settings....generate token..copy it
+
+10.git remote set -url origin https://token@github.com/username/repositoryname.git
+
+11.git push origin myown_branch_name
+
+
+
+
+///////////////push to existing repository
+
+1.git status
+2.git add .     //add files to stagged area
+3.git status    //tracked
+4.git commit -M "2nd  commit/msg"
+5.git branch -M myown_branch_name/main 
+6.git push origin myown_branch_name
+
+7.git log=to see all commits
+
+
+
+
